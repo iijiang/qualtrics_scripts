@@ -1,6 +1,5 @@
 //create Qualtrics.SurveyEngine.QuestionData object
-Qualtrics.SurveyEngine.addOnload(function ()
-{
+Qualtrics.SurveyEngine.addOnload(function () {
     //disables the next button on the page
     this.disableNextButton();
     //question click is a simple onclick handler

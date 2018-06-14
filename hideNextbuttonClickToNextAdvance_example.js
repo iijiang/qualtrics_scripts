@@ -12,7 +12,6 @@ Qualtrics.SurveyEngine.addOnload(function()
     if (element.type == 'radio')
     {
       var that = this;
-      //that.clickNextButton();
       if (event.clientX > 0) {
       (function(){that.clickNextButton();}).delay(1);
       } else {
